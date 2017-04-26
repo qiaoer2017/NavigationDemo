@@ -38,11 +38,12 @@ body {
 
 .wrap {
     width: 900px;
+    height:3250px;
     margin: 0 auto;
 }
 
 .content .item {
-    height: 500px;
+    height: 600px;
     margin-bottom: 20px;
     text-align: center;
     font-size: 50px;
