@@ -9,24 +9,29 @@
 <body>
 <div class="menu">
     <ul>
-        <li class="current"><a href="#">1F</a></li>
-        <li><a href="#">2F</a></li>
-        <li><a href="#">3F</a></li>
-        <li><a href="#">4F</a></li>
-        <li><a href="#">5F</a></li>
+        <li class="current"><a href="#item1">1F</a></li>
+        <li><a href="#item2">2F</a></li>
+        <li><a href="#item3">3F</a></li>
+        <li><a href="#item4">4F</a></li>
+        <li><a href="#item5">5F</a></li>
     </ul>
 </div>
 <div class="content wrap">
-    <div class="item item1">1F</div>
-    <div class="item item2">2F</div>
-    <div class="item item3">3F</div>
-    <div class="item item4">4F</div>
-    <div class="item item5">5F</div>
+    <div class="item" id="item1">1F</div>
+    <div class="item" id="item2">2F</div>
+    <div class="item" id="item3">3F</div>
+    <div class="item" id="item4">4F</div>
+    <div class="item" id="item5">5F</div>
 </div>
 
 <script src="js/jquery.js"></script>
 <script>
-
+    $(function () {
+        $(".menu li").click(function () {
+            $(".menu li").removeClass("current");
+            $(this).addClass("current");
+        });
+    });
 </script>
 </body>
 </html>

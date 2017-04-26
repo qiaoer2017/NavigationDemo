@@ -51,22 +51,22 @@ body {
     font-weight: bold;
 }
 
-.item1 {
+#item1 {
     background: #ffb190;
 }
 
-.item2 {
+#item2 {
     background: #ffe98a;
 }
 
-.item3 {
+#item3 {
     background: #98ff9d;
 }
 
-.item4 {
+#item4 {
     background: #64e7ff;
 }
 
-.item5 {
+#item5 {
     background: #dd7aff;
 }
